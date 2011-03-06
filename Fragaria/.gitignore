@@ -1,0 +1,4 @@
+build/
+Fragaria.xcodeproj/*.pbxuser
+Fragaria.xcodeproj/*.perspectivev3
+Fragaria.xcodeproj/*.mode1v3

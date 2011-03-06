@@ -1,16 +1,16 @@
 //
-//  FragariaAppDelegate.m
+//  Fragaria_demoAppDelegate.m
 //  Fragaria
 //
 //  Created by Jonathan on 30/04/2010.
 //  Copyright 2010 mugginsoft.com. All rights reserved.
 //
 
-#import "FragariaAppDelegate.h"
+#import "Fragaria_demoAppDelegate.h"
 #import "MGSFragaria.h"
 
 
-@implementation FragariaAppDelegate
+@implementation Fragaria_demoAppDelegate
 
 @synthesize window;
 

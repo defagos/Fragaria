@@ -41,7 +41,7 @@ static MGSFragaria *_currentInstance;
 
 // class extension
 @interface MGSFragaria()
-@property MGSExtraInterfaceController *extraInterfaceController;
+@property (assign) MGSExtraInterfaceController *extraInterfaceController;
 @end
 
 @implementation MGSFragaria

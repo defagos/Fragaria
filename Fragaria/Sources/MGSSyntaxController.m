@@ -27,7 +27,6 @@ NSString * const KMGSSyntaxDefinitions =  @"SyntaxDefinitions";
 NSString * const KMGSSyntaxDefinitionsExt = @"plist";
 NSString * const kMGSSyntaxDefinitionsFile = @"SyntaxDefinitions.plist";
 NSString * const KMGSSyntaxDictionaryExt = @"plist";
-NSString * const KMGSSyntaxDefinitionsFolder = @"Syntax Definitions";
 
 // class extension
 @interface MGSSyntaxController()
@@ -264,11 +263,11 @@ static id sharedInstance = nil;
 		NSString *fileName = [definition objectForKey:@"file"];
 		
 		// load dictionary from this bundle
-		NSDictionary *syntaxDictionary = [[NSDictionary alloc] initWithContentsOfFile:[[self bundle] pathForResource:fileName ofType:KMGSSyntaxDefinitionsExt inDirectory:KMGSSyntaxDefinitionsFolder]];
+		NSDictionary *syntaxDictionary = [[NSDictionary alloc] initWithContentsOfFile:[[self bundle] pathForResource:fileName ofType:KMGSSyntaxDefinitionsExt]];
 		if (syntaxDictionary) return syntaxDictionary;
 		
 		// load dictionary from main bundle
-		syntaxDictionary = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:fileName ofType:KMGSSyntaxDefinitionsExt inDirectory:KMGSSyntaxDefinitionsFolder]];
+		syntaxDictionary = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:fileName ofType:KMGSSyntaxDefinitionsExt]];
 		if (syntaxDictionary) return syntaxDictionary;
 		
 		// load from application support

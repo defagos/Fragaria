@@ -1,9 +1,9 @@
 //
 //  main.m
-//  Fragaria
+//  Fragaria-demo
 //
-//  Created by Jonathan on 30/04/2010.
-//  Copyright 2010 mugginsoft.com. All rights reserved.
+//  Created by Samuel Défago on 3/6/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

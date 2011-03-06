@@ -1,5 +1,5 @@
 //
-//  FragariaAppDelegate.h
+//  Fragaria_demoAppDelegate.h
 //  Fragaria
 //
 //  Created by Jonathan on 30/04/2010.
@@ -11,7 +11,7 @@
 @class SMLTextView;
 @class MGSFragaria;
 
-@interface FragariaAppDelegate : NSObject <NSApplicationDelegate> {
+@interface Fragaria_demoAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
 	IBOutlet NSView *editView;
 	MGSFragaria *fragaria;
